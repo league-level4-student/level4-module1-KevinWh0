@@ -1,5 +1,7 @@
 package _00_Intro_To_Generics;
 
+import java.awt.List;
+import java.util.ArrayList;
 import java.util.Random;
 
 // Generics in Java are a way to define one variable that can act as different types.
@@ -23,6 +25,10 @@ public class IntroToGenerics {
 		//define its generic variable to be two different types, String and Integer
 		SomeClass<String> scObj = new SomeClass<String>("sodapop");
 		SomeClass<Integer> scObj2 = new SomeClass<Integer>(412);
+		
+		
+
+
 	}
 	
 	//Here a generic called Template is created as part of the calcStuff method
