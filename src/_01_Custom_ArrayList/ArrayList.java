@@ -36,4 +36,5 @@ public class ArrayList <T>{
 	public boolean contains(T val) {
 		return arrLst.contains(val);
 	}
+
 }

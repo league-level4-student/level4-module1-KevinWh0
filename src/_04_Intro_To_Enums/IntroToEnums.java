@@ -5,6 +5,12 @@ public class IntroToEnums {
 	// categorize a set of states for one by one referencing 
 	
 	// The syntax for an enum is like this:
+	
+	
+
+
+	
+	
 	enum DataTypes {
 		// Every entry must be unique
 		INTEGER, DOUBLE, BOOLEAN, LONG, SHORT, BYTE
@@ -20,7 +26,7 @@ public class IntroToEnums {
 		if(data == DataTypes.INTEGER) {
 			System.out.println("INT");
 		}
-		
+
 		//They can also be used in a switch statement
 		switch(data) {
 		// Notice that 'DataTypes.' is not requires when accessing categories
