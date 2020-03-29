@@ -5,7 +5,7 @@ import javax.swing.JOptionPane;
 public class _00_Horoscope {
 	  // 1. Create an enum in a separate file called Zodiac that contains a category for
 	//    all 12 zodiac signs.
-	static int index = 3;
+	static int index = 1;
 	static Zodiac z = Zodiac.values()[index];//Zodiac.AQUARIUS;
 	// 2. Write a method that takes in a Zodiac enum object and uses a JOPtionPane to display
 	//    a different horoscope based on the Zodiac's state.
@@ -22,6 +22,8 @@ public class _00_Horoscope {
 						"  Don't settle for less than the best. If you're looking to do something worthwhile, consider volunteer work. You can make positive changes in your home.", 
 						"  Expand your knowledge and sign up for courses and seminars. Lending and borrowing may be a problem. You will want to complain about the injustice that is going on,"};
 		String desc = "";
+		//System.out.println(Zodiac.valueOf(zo.toString()));
+		
 		JOptionPane.showMessageDialog(null, "You are an " + zo + "\n "+ descriptions[index]);
 
 	}

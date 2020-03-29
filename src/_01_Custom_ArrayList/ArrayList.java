@@ -6,8 +6,8 @@ public class ArrayList <T>{
 	
 	
 	
-	ArrayList<T> arrLst = new ArrayList<T>(); 
-
+	java.util.ArrayList<T> arrLst = new java.util.ArrayList<T>(); 
+	
 	public ArrayList() {
 		
 	}
@@ -22,7 +22,7 @@ public class ArrayList <T>{
 	}
 	
 	public void insert(int loc, T val) throws IndexOutOfBoundsException {
-		arrLst.insert(loc, val);
+		arrLst.add(loc, val);
 	}
 	
 	public void set(int loc, T val) throws IndexOutOfBoundsException {
@@ -36,5 +36,10 @@ public class ArrayList <T>{
 	public boolean contains(T val) {
 		return arrLst.contains(val);
 	}
+	
+	public int size() {
+		return arrLst.size();
+	}
+	
 
 }
